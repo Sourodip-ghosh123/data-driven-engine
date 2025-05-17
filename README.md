@@ -11,6 +11,9 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+## Directory Structure
+
+```text
 data-driven-engine/
 ├── .gitignore
 ├── README.md
