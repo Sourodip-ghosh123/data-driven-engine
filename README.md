@@ -11,6 +11,14 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+## Run tests
+
+```bash
+pytest
+```
+
+HTML coverage reports will land in `htmlcov/` and `reports/`.
+
 ## Directory Structure
 
 ```text
@@ -32,8 +40,3 @@ data-driven-engine/
     ├── conftest.py
     └── test_engine.py
 
-## Run tests
-
-```pytest```
-
-HTML coverage reports will land in `htmlcov/` and `reports/`.
