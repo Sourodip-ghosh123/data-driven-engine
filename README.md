@@ -34,8 +34,6 @@ data-driven-engine/
 
 ## Run tests
 
-```bash
-pytest
-```
+```pytest```
 
 HTML coverage reports will land in `htmlcov/` and `reports/`.
